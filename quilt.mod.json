@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "net.stardustlabs",
+    "id": "terralith_extra_recipes",
+    "version": "1.0",
+    "metadata": {
+      "name": "Terralith: Extra Recipes",
+      "description": "Adds extra recipes to complement Terralith's generation.",
+      "contributors": {
+        "catter1": "Owner"
+      },
+      "contact": {
+        "homepage": "https://www.stardustlabs.net/",
+        "issues": "https://github.com/catter1/Terralith_Extra_Recipes/issues",
+        "sources": "https://github.com/catter1/Terralith_Extra_Recipes"
+      },
+      "license": "MIT",
+      "icon": "pack.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "minecraft",
+        "versions": ">=1.19"
+      },
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      }
+    ]
+  }
+}

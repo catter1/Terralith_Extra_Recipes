@@ -1,0 +1,26 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/catter1/Terralith_Extra_Recipes/issues"
+
+[[mods]]
+    modId="terralith_extra_recipes"
+    version="1.0"
+    displayName="Terralith: Extra Recipes"
+    displayURL="https://github.com/catter1/Terralith_Extra_Recipes"
+    logoFile="pack.png"
+    authors="catter1"
+    description="Adds extra recipes to complement Terralith's generation."
+
+[[dependencies.terralith_extra_recipes]]
+    modId="neoforge"
+    mandatory=false
+    versionRange="[21,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.terralith_extra_recipes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21,)"
+    ordering="NONE"
+    side="BOTH"

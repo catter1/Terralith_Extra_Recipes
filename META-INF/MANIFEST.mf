@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: terralith_extra_recipes
+Specification-Vendor: catter1
+Specification-Version: 1.0
+Implementation-Title: terralith_extra_recipes
+Implementation-Version: 1.0
+Implementation-Vendor: catter1
+Implementation-Timestamp: 2026-03-13T21:21:21+0200

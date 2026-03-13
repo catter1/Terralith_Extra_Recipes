@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "terralith_extra_recipes",
+  "version": "1.0",
+  "name": "Terralith: Extra Recipes",
+  "description": "Adds extra recipes to complement Terralith's generation.",
+  "authors": [
+    "catter1"
+  ],
+  "contact": {
+    "homepage": "https://www.stardustlabs.net/",
+    "sources": "https://github.com/catter1/Terralith_Extra_Recipes",
+    "issues": "https://github.com/catter1/Terralith_Extra_Recipes/issues",
+    "discord": "https://discord.gg/stardustlabs"
+  },
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.12.7",
+    "fabric-api-base": "*",
+    "minecraft": ">=1.19"
+  },
+  "suggests": {
+    "terralith": ">=2.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/terralith",
+        "modmenu.discord": "https://discord.gg/stardustlabs",
+        "modmenu.kofi": "https://ko-fi.com/stardustlabs",
+        "modmenu.modrinth": "https://modrinth.com/datapack/terralith-extra-recipes",
+        "modmenu.patreon": "https://www.patreon.com/stardustlabs",
+        "modmenu.twitter": "https://twitter.com/StardustLabs",
+        "modmenu.wiki": "https://stardustlabs.miraheze.org/",
+        "modmenu.youtube": "https://www.youtube.com/@stardustlabs"
+      }
+    }
+  }
+}
