@@ -23,11 +23,6 @@
       {
         "id": "minecraft",
         "versions": ">=1.19"
-      },
-      {
-        "id": "quilt_resource_loader",
-        "versions": "*",
-        "unless": "fabric-resource-loader-v0"
       }
     ]
   }
